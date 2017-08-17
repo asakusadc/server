@@ -15,6 +15,24 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/davecgh/go-spew"
+  packages = ["spew"]
+  revision = "346938d642f2ec3594ed81d874461961cd0faa76"
+
+[[projects]]
+  name = "github.com/pmezard/go-difflib"
+  packages = ["difflib"]
+  revision = "792786c7400a136282c1664665ae0a8db921c6c2"
+  version = "v1.0.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/stretchr/testify"
+  packages = ["assert"]
+  revision = "890a5c3458b43e6104ff5da8dfa139d013d77544"
+
+[[projects]]
+  branch = "master"
   name = "gopkg.in/alecthomas/kingpin.v2"
   packages = ["."]
   revision = "1087e65c9441605df944fb12c33f0fe7072d18ca"
@@ -22,6 +40,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "451233710b236c9a1d191fdc492f1cdc09f55b3599c51996eb25a7e7cd01e1bd"
+  inputs-digest = "fd77d36300dddcb3c3a98ca5e4dec9082621e701abd78ead8fbeb798c805d4cb"
   solver-name = "gps-cdcl"
   solver-version = 1

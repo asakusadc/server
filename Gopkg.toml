@@ -67,5 +67,13 @@
 
 
 [[constraint]]
+  name = "github.com/pmezard/go-difflib"
+  version = "1.0.0"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/stretchr/testify"
+
+[[constraint]]
   branch = "master"
   name = "gopkg.in/alecthomas/kingpin.v2"
