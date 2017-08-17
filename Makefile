@@ -1,4 +1,3 @@
-PHONY:
 
 test:
-	go test -v `go list ./... | grep -v vendor` 
+	go test -v `go list ./... | grep -v vendor` -coverprofile=coverage.txt -covermode=atomic
